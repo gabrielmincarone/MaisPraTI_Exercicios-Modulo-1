@@ -1,70 +1,20 @@
-#Verificador de Número Par ou Ímpar
-##📋 Visão Geral
-Programa interativo de console que valida e classifica números inteiros como pares ou ímpares. Desenvolvido como exercício de programação básica com manipulação de entrada/saída e controle de fluxo.
+# Exercício 1 - Verificador de Número Par ou Ímpar
 
-##✨ Features
-Validação de entrada numérica
+📋 Visão Geral
+## Visão Geral
+### Visão Geral
 
-Loop controlado até entrada de saída (0)
 
-Classificação matemática de par/ímpar
+✨ Features
 
-Feedback claro ao usuário
 
-Tratamento de erros básico
----
 🛠️ Como Funciona
-Fluxo Principal
-Solicita entrada do usuário via console
 
-Valida se a entrada é:
 
-0 → Encerra o programa
-
-Número inteiro → Processa classificação
-
-Valor inválido → Solicita nova entrada
-
-Para números válidos:
-
-Calcula resto da divisão por 2
-
-Classifica como:
-
-Par se resto == 0
-
-Ímpar se resto != 0
-
-Exibe resultado formatado
-
-Diagrama Simplificado
-[Início] → [Solicitar Input] → [É 0?] → Sim → [Fim]
-               ↓ Não
-           [É número?] → Não → [Erro] → [Solicitar Input]
-               ↓ Sim
-           [Calcular Par/Ímpar] → [Exibir Resultado] → [Solicitar Input]
 💻 Tecnologias Utilizadas
-Runtime: Node.js (v18+)
 
-Dependências:
-
-prompt-sync (^4.2.0) - para entrada síncrona de dados
-
-ECMAScript Modules (ESM)
 
 � Requisitos
-Node.js instalado (versão 18 ou superior)
 
-NPM ou Yarn para gerenciamento de pacotes
 
 🚀 Instalação e Execução
-bash
-# Clone o repositório (se aplicável)
-git clone <repo-url>
-cd <project-folder>
-
-# Instale as dependências
-npm install
-
-# Execute o programa
-node parOuImpar.js
