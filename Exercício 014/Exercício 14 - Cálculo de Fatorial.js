@@ -31,16 +31,16 @@ for (let i = 1; i <= numero; i++) {                                             
 
 console.log(`O fatorial de ${numero} é ${resultado}.`)                                                                      // Exibe no terminal o valor validado em 'numero' e o seu fatorial em 'resultado'
 
-reiniciaSistema = Number(prompt('Digite 0 (zero) para sair, ou qualquer valor para verificar um nova fatorial: '))           // Declara, inicializa, converte para tipo 'number' e armazena a entrada do usuário na variável 'reiniciaSistema' 
-if(reiniciaSistema === 0) {                                                                                                             // Verifica se o valor armazenado em 'reiniciaSistema' é 0 (zero)
-    console.log('\nObrigado por utilizar nosso sistema de fatorial!')                                                                    // Exibe no terminal a mensagem de despedida
-    setTimeout(() => {                                                                                                                  // Agenda função para encerrar o programa em 3 segundos
-        process.exit()                                                                                                                  // Encerra o processo o processo e finaliza o programa
-    }, 3000)                                                                                                                            // Define um atraso de 3000 milissegundos (3 segundos) antes de executar o bloco anterior
-    break                                                                                                                               // Encerra o loop 'while' e finaliza o programa
-} else {                                                                                                                                // Verifica se o valor armazenado em 'reiniciaSistema' é 1 (zero)
-    console.log('\nCombinado! Vamos fatorar mais alguns números')                                                                           // Exibe no terminar a mensagem indicando que o sistema será reiniciado                                                                    
-    continue                                                                                                                            // Reinicia o loop 'while'
+reiniciaSistema = Number(prompt('Digite 0 (zero) para sair, ou qualquer valor para verificar um nova fatorial: '))          // Declara, inicializa, converte para tipo 'number' e armazena a entrada do usuário na variável 'reiniciaSistema' 
+if(reiniciaSistema === 0) {                                                                                                 // Verifica se o valor armazenado em 'reiniciaSistema' é 0 (zero)
+    console.log('\nObrigado por utilizar nosso sistema de fatorial!')                                                       // Exibe no terminal a mensagem de despedida
+    setTimeout(() => {                                                                                                      // Agenda função para encerrar o programa em 3 segundos
+        process.exit()                                                                                                      // Encerra o processo o processo e finaliza o programa
+    }, 3000)                                                                                                                // Define um atraso de 3000 milissegundos (3 segundos) antes de executar o bloco anterior
+    break                                                                                                                   // Encerra o loop 'while' e finaliza o programa
+} else {                                                                                                                    // Verifica se o valor armazenado em 'reiniciaSistema' é 1 (zero)
+    console.log('\nCombinado! Vamos fatorar mais alguns números')                                                           // Exibe no terminar a mensagem indicando que o sistema será reiniciado                                                                    
+    continue                                                                                                                // Reinicia o loop 'while'
 }
 
 }
