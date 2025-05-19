@@ -34,6 +34,6 @@ Este programa é uma calculadora de média aritmética que permite ao usuário i
 ```bash
 npm install prompt-sync
 ```
-3. Baixe o arquivo `Exercício 13 - Calculadora de Média Aritmética no repositório do GitHub ou copie o código e salve em um arquivo com extensão .js (por exemplo, Calculadora de Média Aritmética.js).
+3. Baixe o arquivo `Exercício 13 - Calculadora de Média Aritmética` no repositório do GitHub ou copie o código e salve em um arquivo com extensão .js (por exemplo, Calculadora de Média Aritmética.js).
 4. Execute o programa com Node.js JavaScript RunTime.
 5. Siga as instruções no terminal para inserir um número inteiro e ver o resultado.
