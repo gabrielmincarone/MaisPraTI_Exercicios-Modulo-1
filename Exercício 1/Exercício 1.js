@@ -8,7 +8,7 @@ while (true) {                                                                  
 let verficaParImpar                                                                                                             // Declara a variável 'verificaParImpar' onde armazenará os números digitados pelo usuário 
 
 do {                                                                                                                            // Inicia um loop 'do-while' para verificar se a entrada do usuário é válida 
-    verficaParImpar = Number(prompt('Digite um NÚMERO INTEIRO para verificar se par ou impar, ou 0 (zero para sair): '))        // Inicializa a variável 'verificaParImpar', solita uma entrada ao usuário, converte o valor para 'number' e armazena o valor na variável
+    verficaParImpar = Number(prompt('Digite um NÚMERO INTEIRO para verificar se par ou impar, ou 0 (zero) para sair: '))        // Inicializa a variável 'verificaParImpar', solita uma entrada ao usuário, converte o valor para 'number' e armazena o valor na variável
 
     if (Number.isNaN(verficaParImpar)) {                                                                                        // Verifica se o valor armazenado em 'verificaParImpar' é um número    
         console.error(`Digite um número válido`)                                                                                // Exibe no terminal a mensagem de erro, indicando que a entrada é inválida
