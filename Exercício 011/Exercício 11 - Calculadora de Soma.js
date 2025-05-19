@@ -25,9 +25,9 @@ for (let i = 0; i < numeros.length; i++) {                                      
  
 console.log(`A soma de (${numeros.join(' + ')}) é ${soma}!`)                                                                                // Exibe no terminal a soma formatada, mostrando todos os números digitados e o resultado final.
 
-reiniciaSistema = Number(prompt('Digite 0 (zero) para sair, ou qualquer valor para cansar de ver seus números sendo repetidos: '))          // Declara, inicializa, converte para tipo 'number' e armazena a entrada do usuário na variável 'reiniciaSistema' 
+reiniciaSistema = Number(prompt('Digite 0 (zero) para sair, ou qualquer valor realizar um novo cálculo: '))                                 // Declara, inicializa, converte para tipo 'number' e armazena a entrada do usuário na variável 'reiniciaSistema' 
 if(reiniciaSistema === 0) {                                                                                                                 // Verifica se o valor armazenado em 'reiniciaSistema' é 0 (zero)
-    console.log('\nObrigado por utilizar nossa calculadora de soma!')                                                                        // Exibe no terminal a mensagem de despedida
+    console.log('\nObrigado por utilizar nossa calculadora de soma!')                                                                       // Exibe no terminal a mensagem de despedida
     setTimeout(() => {                                                                                                                      // Agenda função para encerrar o programa em 3 segundos
         process.exit()                                                                                                                      // Encerra o processo o processo e finaliza o programa
     }, 3000)                                                                                                                                // Define um atraso de 3000 milissegundos (3 segundos) antes de executar o bloco anterior
